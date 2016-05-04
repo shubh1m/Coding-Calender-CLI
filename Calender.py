@@ -27,14 +27,14 @@ def main():
         contest = ongoing[i]
         print ('{:<5}{:<50}{:^20}{:<60}'.format(i+1, contest['Name'], contest['Platform'], contest['url']))
 
-    #print('\n')
-    #star()
-    #print ('{:>{}}'.format('UPCOMING CONTESTS', cols/3 + 30))
-    #star()
+    print('\n')
+    star()
+    print ('{:>{}}'.format('UPCOMING CONTESTS', cols/3 + 30))
+    star()
 
-    #for i in range(len(upcoming)):
-    #    contest = upcoming[i]
-    #    print ('{:<8}{:<50}{:^20}{:<60}'.format(i+1, contest['Name'], contest['Platform'], contest['url']))
+    for i in range(len(upcoming)):
+        contest = upcoming[i]
+        print ('{:<8}{:<50}{:^20}{:<60}'.format(i+1, contest['Name'], contest['Platform'], contest['url']))
 
 
 def star():
