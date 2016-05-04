@@ -1,4 +1,4 @@
-# Coding-Calender-CLI
+# Coding-Calender-CLI [*WIP]
 
 A command line tool to view live and upcoming contests through terminal
 
